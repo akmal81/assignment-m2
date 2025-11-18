@@ -1,6 +1,6 @@
 ## What are some differences between interfaces and types in TypeScript?
 
-# differences 1
+#### differences 1
 Interface define the strucure of an object and type can describe object, uninon and others
 
 ```ts
@@ -15,7 +15,7 @@ type User = {
 };
 ```
 
-# differences 2
+#### differences 2
 Interface can extend other interface but not extend type on the other hand type can extend both interface and type.
 
 ```ts
@@ -39,14 +39,14 @@ type Admin = User2 & {
 
 ```
 
-# differences 3
+#### differences 3
 Interface not supported unions or intersections etc type on the other hand type support unions intersections etc.
 
 ```ts
 type Status = "success" | "error" | "pending";
 ```
 
-# differences 4
+#### differences 4
 
 Interface does not support Tuples and priemitives but type suppost them.
 
